@@ -7,11 +7,10 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Grattis!</h1>
-
-    <p>
-      <Link to="/grattis/">Grattis!</Link> <br />
-    </p>
+    <div class="animate-pulse pt-20">
+    <h1 class="font-mono">Émim</h1>
+    <p class="font-mono"> More to come.</p>
+    </div>
   </Layout>
 )
 
